@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0047)https://secure.elong.com/passport/login_cn.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>
+        会员登录–elong.com艺龙旅行网</title>
+    <meta name="keywords" content="酒店,酒店预订,机票,机票预订,旅游,旅行,度假">
+    <meta name="description" content="艺龙旅行网是中国领先的在线旅行服务提供商,致力于为消费者提供最好的酒店,机票,旅行度假产品和高效率的预订服务.在线预订酒店返现高达20%.24小时免费预订电话 4009-333-333.">
+    <script type="text/javascript">
+        var tjObj_rt = new Date();
+    </script>
+    <link rel="icon" href="https://secure.elong.com/passport/pic/favicon.ico?t=201607110014" type="image/x-icon">
+    
+      <link rel="stylesheet" rev="stylesheet" href="https://secure.elong.com/passport/CSS/EL_common.css?t=201607110014">
+     <link rel="stylesheet" rev="stylesheet" href="https://secure.elong.com/passport/CSS/MyElong2014_login.css?t=201607110014">
+    
+
+</head>
+<body>
+    
+    
+    
+
+<!--头部开始-->
+    <div class="head">
+        <div class="logo" id="RedirectHomeSite"></div>
+            
+                 <h1>会员登录</h1>
+            
+        </div>
+        
+    <!--头部结束-->
+    <!--表单开始-->
+    
+    <div class="loginbox">
+        
+        
+    
+    <div class="switch_btn" id="switchCodeLogin">
+        <a class="a_one" style="top: 0px; left: 0px;" method="QrCodeLogin"></a>
+        <a class="a_two" style="top: 0px; left: 50px;" method="NormalLogin"></a>
+
+    </div>
+   
+        <div class="pic">
+            <a href="http://www.elong.com/promotion/web/elong_subject/index.html" target="_blank"><img src="./会员登录–elong.com艺龙旅行网_files/login_banner.jpg" width="620" height="350" alt="常住30天"></a>
+        </div>
+        
+             <div id="CodeLogin" class="formbox phonebox" style="display:none;overflow: hidden;">
+       <!--扫二维码-->
+       <div class="scanning_code" style="display:block;" id="SearchCodeStep">
+          <h5>请使用艺龙APP扫码登录</h5>
+          <div class="pic_code">
+              <img src="./会员登录–elong.com艺龙旅行网_files/QrCode" width="185" height="185" alt="">
+          </div>
+           
+           
+            <div class="pic_code2" style="left: 0px;display: none;position: absolute;top:85px; ">
+                    <div class="animate_wrap" style="width: 100px; height: 100px; top: 0px;display: block">
+                           
+                           <img src="./会员登录–elong.com艺龙旅行网_files/show_anima.png" alt="">
+                                                
+                            
+                     </div>
+                </div>
+
+           
+           <div class="e_code_help"><a class="mt10" href="javascript:;" method="showHelp">使用帮助</a></div>
+       </div>
+       <!--扫二维码-->
+       
+        <!--扫码成功-->
+           <div class="scanning_code" style="display:none;" id="ScanSuccess">
+          <div class="pic_code3">
+              <h5><i></i>扫描成功</h5>
+          </div>
+          <div class="e_code_help"><p>点击手机上的确认按钮即可登录</p></div>
+         </div>
+
+           
+           <!--扫码超时-->
+           <div class="scanning_code" style="display:none;" id="ScanTimeout2">
+                  <div class="pic_code4">
+                      <h5><i></i>操作超时</h5>
+                  </div>
+                <div class="e_code_help e_code_help2"><p>点击刷新二维码，请重新登录</p><a href="javascript:;" method="RefreshQrCode">刷新二维码</a></div>
+           </div>
+           
+
+        </div> 
+        
+        
+           
+  
+    
+    
+    
+
+        <div id="NoCodeLogin" class="formbox errorBox" style="display:block">
+       
+        <div id="HKTip" class="el-poptip" style="width:265px;position:absolute;left:108px;top:-28px;">
+            <div class="el-poptip-shadow">
+                <div class="el-poptip-container">        
+                    <div class="el-poptip-arrow el-poptip-arrow-7">
+                        <em>◆</em>
+                         <span>◆</span>
+                    </div>
+                    <a href="javascript:;" class="el-poptip-close" onclick="$(&#39;#HKTip&#39;).hide()">×</a>
+                   
+                      <!--
+                            <p>Guests who locate in HK, MC and TW please use mobile phone dynamic passwords to login in.</p>
+                            -->
+                    
+                            <p>港澳台手机用户请使用“手机动态密码登录”</p>
+                 
+                </div>
+            </div>
+        </div>
+        
+            <div class="nav_login_user" id="LoginTypeChoose">
+                <label><input name="loginType" type="radio" method="normalLogin" checked="checked">普通登录</label>
+                <label><span><input name="loginType" type="radio" method="dynamicLogin">手机动态密码登录</span></label>
+            </div>
+          
+            <div id="ElongLogin">
+        <!--<div class="formbox errorBox" id = "ElongLogin">  -->         
+            <div class="inputbox login_id">
+                
+                  <span class="icon"></span><input class="blur" type="text" id="UserName" method="ValidateUserName" value="用户名/卡号/手机号/邮箱">
+               
+            </div>
+            <div class="inputbox login_pw" id="password_tip"> 
+                <span class="icon"></span><input class="blur" type="text" value="密码" method="ValidatePassword">
+            </div>
+            <div class="inputbox login_pw" style="display:none" id="input_password">
+                <span class="icon"></span><input class="blur" type="password" method="PassWord" id="PassWord">
+            </div>
+            <div class="inputbox login_code err" id="ValidateInput" style="">
+                <input class="blur" type="text" value="验证码" id="ValidateCode" method="CheckValidateCode">
+                <img src="./会员登录–elong.com艺龙旅行网_files/Validate.html" method="ChangeVidateCode" alt="" style="width: 65px;">
+                <a href="https://secure.elong.com/passport/login_cn.html#?" id="ValidateHref" method="HrefVlidateCode">换一张</a>
+                <div class="input_tip input_tip_yzm" id="validate_result" style="display:none">您输入的验证码不正确</div>
+            </div>
+            <div class="forget">
+                <span><span class="icon off" id="pageinputRememberMe" name="rememberMe"></span><span id="remberMeText">两个月内免登录</span></span>
+                <a href="https://secure.elong.com/passport/login_cn.html#?" method="hrefFindPassWord">忘记密码</a>
+            </div>
+            <a class="loginbtn" href="https://secure.elong.com/passport/login_cn.html#?" usable="true" method="LoginSubmit">登录</a>
+            <div class="login_style">
+                <span>使用其它账号登录：</span>
+                <a class="icon s_weixin" href="https://secure.elong.com/passport/login_cn.html#?" method="hrefWeixin">微信</a><a class="icon s_qq" href="https://secure.elong.com/passport/login_cn.html#?" method="hrefQQ">qq</a><a class="icon s_sina" href="https://secure.elong.com/passport/login_cn.html#?" method="hrefSina">新浪微博</a><a class="icon s_zfb" href="https://secure.elong.com/passport/login_cn.html#?" method="hrefAlipay">支付宝</a><a class="icon s_renren" href="https://secure.elong.com/passport/login_cn.html#?" method="hrefRenRen">人人</a>
+            </div>
+        <!--</div>-->
+        </div>
+        
+       
+           <div id="DynamicLogin" style="display: none;">
+                <div class="inputbox login_id">
+                       <div class="phonenum" method="showPhoneTypes">
+                       
+                            <span id="PhoneType" value="1" method="showPhoneTypes">中国大陆+86</span>
+                            
+                          <ul id="PhoneTypeList" style="display:none">
+                            
+                          </ul>
+                        </div>
+
+
+                    <input id="userPhone" class="blur phonenum_input" type="text" value="请输入手机号" method="ValidateUserPhone">
+                     <div id="UserPhoneErroTip" class="input_tip" style="display:none"></div>
+                </div>
+        
+                 <div class="inputbox phone_pw">
+                     <input id="input_DynamicCode" class="blur" type="text" value="输入动态密码" method="ValidateDynamicCode">
+                     <a class="btn" id="GetDynamicCode" useful="true" method="GetDynamicCode">获取动态密码</a>
+                     <div id="DynamicCodeErroTip" class="input_tip" style="display:none"></div>
+
+                 </div>
+            
+                 <div class="inputbox login_code err" id="ValidateInput_Dynamic" style="display: none;">
+                <input class="blur" type="text" value="验证码" id="ValidateCode_Dynamic" method="CheckValidateCode_Dynamic"><img src="./会员登录–elong.com艺龙旅行网_files/Validate.html" method="ChangeVidateCode" alt=""><a href="https://secure.elong.com/passport/login_cn.html#?" id="ValidateHref_Dynamic" method="HrefVlidateCode">换一张</a>
+                       <div class="input_tip input_tip_yzm" id="validate_result_Dynamiic" style="display:none">您输入的验证码不正确</div>
+                 </div>
+                   <!--
+        <div class="inputbox login_code err" style="display:none">
+            <input class="blur" type="text" value="验证码" method="ValidateCode"/><img src="http://my.elong.com/Validate.html" alt="" /><a href="">换一张</a>
+            <div class="input_tip input_tip_yzm" style="display:none">您输入的验证码有误</div>
+        </div>
+        -->
+         <div class="forget">
+                    <span><span class="icon off" id="remember4Dynamic" name="rememberMe"></span><span id="remember4DynamicTxt">
+                        记住我</span></span>  
+                </div>
+                   <a class="loginbtn" href="https://secure.elong.com/passport/login_cn.html#?" usable="true" method="DynamicLoginSubmit">登录</a>
+
+       
+                <!--登录加载时状态-->
+                <!--<a class="loginbtn" href="">登录中...</a>-->
+                <div class="login_style">
+                    <span>使用其它账号登录：</span>
+                    <a class="icon s_weixin" href="https://secure.elong.com/passport/login_cn.html#?" method="hrefWeixin">微信</a><a class="icon s_qq" href="https://secure.elong.com/passport/login_cn.html#?" method="hrefQQ">qq</a><a class="icon s_sina" href="https://secure.elong.com/passport/login_cn.html#?" method="hrefSina">新浪微博</a><a class="icon s_zfb" href="https://secure.elong.com/passport/login_cn.html#?" method="hrefAlipay">支付宝</a><a class="icon s_renren" href="https://secure.elong.com/passport/login_cn.html#?" method="hrefRenRen">人人</a>
+                </div>
+        </div>
+         
+        </div>
+    </div>
+   
+    
+    
+            <div class="register_tip"><a href="https://secure.elong.com/passport/register_cn.html" title="立即注册">立即注册<i></i></a></div>
+    
+    <!--表单结束-->
+    <!--底部开始-->
+    <div class="footer">
+       
+            <p class="mobile">
+                <a class="iphone" href="http://www.elong.com/promotion/web/elongiphone/index.html" target="_blank"><span class="icon"></span>iPhone / iPad</a>
+                <a href="http://www.elong.com/promotion/web/elongiphone/index.html" target="_blank" class="android"><span class="icon"></span>Android</a>
+                <a href="http://www.elong.com/promotion/web/elongiphone/index.html" target="_blank" class="windows"><span class="icon"></span>Windows</a>
+                <a href="http://www.elong.com/promotion/web/elongiphone/index.html" target="_blank" class="other"><span class="icon"></span>其他手机端</a>
+            </p>
+            <p>
+                <a href="http://corp.elong.com/">关于艺龙</a>|
+                <a href="http://hotel.elong.com/union/join.html#?">酒店加盟</a>|
+                <a href="http://agent.elong.com/">代理合作</a>|
+                <a href="http://corp.elong.com/advertising.html">广告服务</a>|
+                <a href="http://corp.elong.com/contact.html">联系我们</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;©1999 - 2014 eLong, Inc or its affiliates. All Rights Reserved.
+           </p>
+           
+    </div>
+    <!--底部结束-->
+    
+
+    
+    <div id="m_contentend" style="z-index: 200;">
+    </div>
+ 
+    
+     <script type="text/javascript" language="javascript">var PageSwitch={"JsErrorMonitor":"0","IsLogOutDIY":"0","LogOutUrl":""};  </script>
+     
+            <script type="text/javascript" src="./会员登录–elong.com艺龙旅行网_files/systemall.js"></script>
+       
+       <script type="text/javascript">
+        var LoginController = {
+            SessionEsid: "ade23e23-7140-427f-82ab-b9c321432fef",
+            SessionGuid: "fcc43ec4-1f40-48ac-9838-53b8542b41c8",
+            ViewModel: {"UserName":null,"PassWord":null,"ValidateCode":null},
+            IsShowValidateCode: true,
+            IsShowValidateCode_Dynamic: false,
+            isEn: false,
+            pollingTime: 5,
+            pollingInterval: 2,
+            CallBackName: null,
+            ServerTime: "2016-07-18 20:35:29",
+            NextUrl: "http://www.elong.com/",
+            Resources: {LoginValidateUser_Empty_Error: "\u8BF7\u8F93\u5165\u60A8\u7684\u4F1A\u5458\u540D\u3002",LoginValidatePassword_Empty_Error: "\u8BF7\u8F93\u5165\u60A8\u7684\u5BC6\u7801\u3002",LoginValidatePassword_Length_Error: "\u5BC6\u7801\u957F\u5EA6\u4E0D\u80FD\u5C11\u4E8E6\u4F4D\uFF0C\u8BF7\u91CD\u65B0\u8F93\u5165\uFF01"},
+            UrlConfig: {Myelong_Validate: "/Passport/Validate.html",Myelong_Reg: "/Passport/register_#{language}.html",Myelong_ForgetPass: "/Passport/ForgetPass_#{language}.html",Myelong_ForgetPassLoginName: "/Passport/ForgetPass_#{language}_#{LoginName}.html"},
+            Language: "CN",
+            WebCategory: "Elong",
+            CampaignId: "",
+            LoginAgent: function(actiondo, loginname, pwd, vcode, cardno, isRememberMe, callback, enabledCache, httpmethod,isPipeFrist, timeOut){ elongAjax.callBack("/passport/isajax/Login/LoginAgent?language=cn&viewpath=~/views/myelong/passport/login.aspx&", {actiondo:actiondo, loginname:loginname, pwd:pwd, vcode:vcode, cardno:cardno, isRememberMe:isRememberMe}, callback, enabledCache, httpmethod,isPipeFrist,null, timeOut); },
+            LoginProxy: function(actiondo, loginname, pwd, vcode, cardno, isRememberMe, callback, callback, enabledCache, httpmethod,isPipeFrist, timeOut){ elongAjax.callBack("/passport/isajax/Login/LoginProxy?language=cn&viewpath=~/views/myelong/passport/login.aspx&", {actiondo:actiondo, loginname:loginname, pwd:pwd, vcode:vcode, cardno:cardno, isRememberMe:isRememberMe, callback:callback}, callback, enabledCache, httpmethod,isPipeFrist,null, timeOut); },
+            SLoginProxy: function(actiondo, loginname, pwd, vcode, cardno, isRememberMe, sGuid, callback, callback, enabledCache, httpmethod,isPipeFrist, timeOut){ elongAjax.callBack("/passport/isajax/Login/SLoginProxy?language=cn&viewpath=~/views/myelong/passport/login.aspx&", {actiondo:actiondo, loginname:loginname, pwd:pwd, vcode:vcode, cardno:cardno, isRememberMe:isRememberMe, sGuid:sGuid, callback:callback}, callback, enabledCache, httpmethod,isPipeFrist,null, timeOut); },
+            getPhoneAcList: function(language, callback, enabledCache, httpmethod,isPipeFrist, timeOut){ elongAjax.callBack("/passport/isajax/Login/getPhoneAcList?language=cn&viewpath=~/views/myelong/passport/login.aspx&", {language:language}, callback, enabledCache, httpmethod,isPipeFrist,null, timeOut); },
+            GetQRCodeData: function(callback, enabledCache, httpmethod,isPipeFrist, timeOut){ elongAjax.callBack("/passport/isajax/Login/GetQRCodeData?language=cn&viewpath=~/views/myelong/passport/login.aspx&", {}, callback, enabledCache, httpmethod,isPipeFrist,null, timeOut); },
+            UpdateCacheStatus: function(callback, enabledCache, httpmethod,isPipeFrist, timeOut){ elongAjax.callBack("/passport/isajax/Login/UpdateCacheStatus?language=cn&viewpath=~/views/myelong/passport/login.aspx&", {}, callback, enabledCache, httpmethod,isPipeFrist,null, timeOut); },
+            QRCodeLogin: function(callback, enabledCache, httpmethod,isPipeFrist, timeOut){ elongAjax.callBack("/passport/isajax/Login/QRCodeLogin?language=cn&viewpath=~/views/myelong/passport/login.aspx&", {}, callback, enabledCache, httpmethod,isPipeFrist,null, timeOut); },
+            Dynamic_isValidateCode: function(callback, enabledCache, httpmethod,isPipeFrist, timeOut){ elongAjax.callBack("/passport/isajax/Login/Dynamic_isValidateCode?language=cn&viewpath=~/views/myelong/passport/login.aspx&", {}, callback, enabledCache, httpmethod,isPipeFrist,null, timeOut); },
+            GetDynamicCode: function(mobile, validateCode, callback, enabledCache, httpmethod,isPipeFrist, timeOut){ elongAjax.callBack("/passport/isajax/Login/GetDynamicCode?language=cn&viewpath=~/views/myelong/passport/login.aspx&", {mobile:mobile, validateCode:validateCode}, callback, enabledCache, httpmethod,isPipeFrist,null, timeOut); },
+            DynamicLogin: function(DynamicCode, MobilePhoneNo, validateCode, isRemember, callback, enabledCache, httpmethod,isPipeFrist, timeOut){ elongAjax.callBack("/passport/isajax/Login/DynamicLogin?language=cn&viewpath=~/views/myelong/passport/login.aspx&", {DynamicCode:DynamicCode, MobilePhoneNo:MobilePhoneNo, validateCode:validateCode, isRemember:isRemember}, callback, enabledCache, httpmethod,isPipeFrist,null, timeOut); },
+            ValidateMobileOrEmail: function(mobile, callback, enabledCache, httpmethod,isPipeFrist, timeOut){ elongAjax.callBack("/passport/isajax/Login/ValidateMobileOrEmail?language=cn&viewpath=~/views/myelong/passport/login.aspx&", {mobile:mobile}, callback, enabledCache, httpmethod,isPipeFrist,null, timeOut); }
+        }
+     </script>
+
+    
+            <script type="text/javascript" src="./会员登录–elong.com艺龙旅行网_files/login.js"></script>
+
+    
+
+    
+    
+    
+    <div id="m_adsContainer" style="display: none">
+        
+    </div>
+    
+    
+    
+
+
+
+</body></html>

@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>艺龙酒店预订</title>
+  <meta charset="utf-8">
+  <link href="image/favicon.ico"/>
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/yl.css">
+ </head>
+
+ <body>
+ <!--页面头部-->
+  <header id="header">
+	<div id="top_main">
+		<p></p>
+		<div id="top_right">
+			<ul>
+				<li>
+					<a href="#">积分商城</a>
+					<b></b>
+				</li>
+				<li>
+					<a href="#">礼品卡</a>
+					<b></b>
+				</li>
+				<li>
+					<a href="#">微信客服</a>
+					<b></b>
+				</li>
+				<li>
+					<a href="#">帮助中心</a>
+					<b></b>
+				</li>
+				<li class="english">
+					<a href="#">English</a>
+					<s></s>
+					<!--english弹出框-->
+					<ul id="english_items">
+						<li><a href="#">简体版</a></li>
+						<li><a href="#">繁体版</a></li>
+					</ul>
+				
+				</li>
+				
+				
+			</ul>
+			<div id="count">
+				<span></span>
+				<div>
+					<p>手机版</p>
+					<a href="#" class="show">专享五折起</a>
+					<!--手机二维码弹出框-->
+					<div id="count_items">
+						<i></i>
+					</div>
+				</div>
+			</div>
+			<div id="tel">
+				<span></span>
+				<div>
+					<p>7X24客服电话</p>
+					<a href="#">4009-333-333</a>
+					<b class="show"></b>
+					<!--客服电话弹出框-->
+					<div id="tel_items">
+						<i></i>
+						<ul
+							<li>国内：4009-333-333</li>
+							<li>香港：852-8131-8883</li>
+							<li>台湾：886-2-7717-8123</li>
+							<li>海外：8610-10-6432-9999</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		
+		
+	</div>
+	<div style="clear:both"></div>
+  </header>
+  <!--nav导航-->
+  <nav id="nav_1">
+	<ul id="nav_header">
+		<li class="n_active"><a href="#">首页</a></li>
+		<li><a href="#">国内酒店</a></li>
+		<li class="hotel">
+			<span></span>
+			<a href="#">国际酒店</a>
+		</li>
+		<li class="short_rent">
+			<span></span>
+			<a href="#">短租公寓</a>
+		</li>
+		<li><a href="#">限时抢</a></li>
+		<li><a href="#">机票</a></li>
+		<li><a href="#">火车票</a></li>
+		<li><a href="#">汽车票</a></li>
+		<li class="use_car">
+			<span></span>
+			<a href="#">用车</a>
+		</li>
+		<li class="guide">
+			<span></span>
+			<a href="#">旅游指南</a>
+		</li>
+	</ul>
+	<div id="login">
+		<a href="#">登录   |</a>
+		<a href="#"> 注册</a>
+		<div id="login_items">
+		<p class="btn_load">
+			<a href="#">登录</a>
+		</p>
+		<ul id="all_icon">
+			<li class="icon_d1">
+				<a href="#">
+					<b></b>
+					酒店订单
+				</a>
+			</li>
+			<li class="icon_d2">
+				<a href="#">
+					<b></b>
+					团购订单
+				</a>
+			</li>
+			<li class="icon_d3">
+				<a href="#">
+					<b></b>
+				机票订单
+				</a>
+			</li>
+			<li class="icon_d4">
+				<a href="#">
+					<b></b>
+					火车票订单
+				</a>
+			</li>
+			<li class="icon_d5">
+				<a href="#">
+					<b></b>
+					现金账户
+			</a>
+			</li>
+			<li class="icon_d6">
+				<a href="#">
+					<b></b>
+					汽车票订单
+			</a>
+			</li>
+			<li class="icon_d7">
+				<a href="#">
+					<b></b>
+					酒店收藏
+				</a>
+			</li>
+			<li class="icon_d8">
+				<a href="#">
+					<b></b>
+				我的点评
+				</a>
+			</li>
+			<li class="icon_d9">
+				<a href="#">
+					<b></b>
+				个人设置
+				</a>
+			</li>
+		</ul>
+	</div>
+	</div>
+	
+	<div style="clear:both"></div>
+  </nav>
+  <!--banner部分-->
+ <div id="banner">
+  <ul>
+  	<li class="list_1"><a href="#"></a></li>
+  	<li class="list_2"><a href="#"></a></li>
+  	<li class="list_3"><a href="#"></a></li>
+  	<li class="list_4"><a href="#"></a></li>
+  </ul>
+  <span id="prev"></span>
+  <span id="next"></span>
+  <ol id="banner_scroll">
+		<li class="b_active"></li>	
+		<li></li>	
+		<li></li>	
+		<li></li>	
+  </ol>
+ </div>
+  <!--section部分-->
+  <section id="section">
+	<div id="section_top">
+		<p>
+			<i></i>
+			<a href="#">登录</a>
+			<span>展示你的个性化内容</span>
+		</p>
+		<div id="section_banner">
+			<ul  id="hotel_pic">
+				<li class="hotel_pic1 active">
+					<b></b>
+					<h4>园林酒店</h4>
+				</li>
+
+				<li class="hotel_pic2">
+					<b></b>
+					<h4>情侣酒店</h4>
+				</li>
+
+				<li class="hotel_pic3">
+					<b></b>
+					<h4>设计师酒店</h4>
+				</li>
+
+				<li class="hotel_pic4">
+					<b></b>
+					<h4>青年旅社</h4>
+				</li>
+
+				<li class="hotel_pic5">
+					<b></b>
+					<h4>特色客栈</h4>	
+				</li>
+
+				<li class="hotel_pic6">
+					<b></b>
+					<h4>海岛酒店</h4>
+				</li>
+				<li class="hotel_pic7">
+					<b></b>
+					<h4>海外温泉</h4>
+				</li>
+
+			</ul>
+		</div>
+	</div>
+		<div id="section_middle">
+			<p>
+					<span>目的地指数</span>
+					<b>覆盖全球50万家酒店 ， 你想住的 ， 我们都有</b>
+			</p>
+			<div class="in_china">
+				<ul class="arrive">
+					<li>
+						<b></b>
+						<h1>国内</h1>
+					</li>
+					<li class="active"><a href="#">草原踏青</a></li>
+					<li><a href="#">小憩温泉</a></li>
+					<li><a href="#">天然氧吧</a></li>
+					<li><a href="#">草原狂欢</a></li>
+					<li><a href="#">小镇时光</a></li>
+					<li><a href="#">美食之城</a></li>
+				</ul>
+				<p>				
+					<a href="#">更多>></a>
+				</p>
+			</div>
+			<div class="beautiful">
+				<ul class="mountain">
+					<li class="hs">
+						<a href="#"></a>	
+					
+						<h2>黄山</h2>
+						<p>春意撩人 登高踏青赏春色</p>
+					</li>
+					<li class="ems">
+						<a href="#"></a>		
+						
+						<h2>峨眉山</h2>
+						<p>阳春三月 闻着茶香去峨眉</p>
+					</li>
+					<li class="wts">
+						<a href="#"></a>
+						
+						<h2>五台山</h2>
+						<p>迎春 祈福 登五台</p>
+					</li>
+					<li class="ls">
+						<a href="#"></a>	
+						
+						<h2>庐山</h2>
+						<p>亲近自然 春游庐山</p>
+					</li>
+						</ul>
+				</div>
+				<!--海外美景-->
+
+				<div class="in_china">
+				<ul class="arrive">
+					<li>
+						<b class="out_china"></b>
+						<h1>海外</h1>
+					</li>
+					<li class="active"><a href="#">文艺清新</a></li>
+					<li><a href="#">面朝大海</a></li>
+					<li><a href="#">别样建筑</a></li>
+					<li><a href="#">浪漫主义</a></li>
+					<li><a href="#">魅力都市</a></li>
+				</ul>
+				<p>				
+					<a href="#">更多>></a>
+				</p>
+			</div>
+			<div class="beautiful">
+				<ul class="mountain">
+					<li class="ld">
+						<a href="#"></a>	
+					
+						<h2>伦敦</h2>
+						<p>风情英伦，帝国余韵</p>
+					</li>
+					<li class="qm">
+						<a href="#"></a>		
+						
+						<h2>清迈</h2>
+						<p>泰北玫瑰，慢行古城</p>
+					</li>
+					<li class="jzd">
+						<a href="#"></a>
+						
+						<h2>济州岛</h2>
+						<p>最传统的浪漫，最神秘的自然</p>
+					</li>
+					<li class="lm">
+						<a href="#"></a>	
+						
+						<h2>罗马</h2>
+						<p>永恒之城，魅力无限</p>
+					</li>
+						</ul>
+				</div>
+				<!--超值特价票-->
+				<div id="low_price">
+					<p>
+						<span>超值特价票</span>
+					</p>
+					<div class="low_price1">
+						<ul class="fly">
+							<li class="f_icon">
+								<b></b>
+								<h1>机票</h1>
+							</li>
+							<li class="active"><a href="#">北京出发</a></li>
+							<li><a href="#">上海出发</a></li>
+							<li><a href="#">广州出发</a></li>
+							<li><a href="#">杭州出发</a></li>
+							<li><a href="#">深圳出发</a></li>
+							<li><a href="#">成都出发</a></li>
+					</ul>
+					<p>				
+						<a href="#">更多>></a>
+					</p>
+					</div>
+					<div class="go_where">
+						<ul>
+							<li>
+								<a href="#">
+									<span class="bj"><i>北京</i><b></b><s>南京</s></span>
+									<p class="date"><i>07月03日</i><b>1.6折</b><s>&yen;300</s></p>
+								</a>
+							</li>
+
+							<li>
+								<a href="#">
+									<span class="bj"><i>北京</i><b></b><s>合肥</s></span>
+									<p class="date"><i>07月05日</i><b>1.8折</b><s>&yen;310</s></p>
+								</a>
+							</li>
+
+							<li>
+								<a href="#">
+									<span class="bj"><i>北京</i><b></b><s>杭州</s></span>
+									<p class="date"><i>07月03日</i><b>2.0折</b><s>&yen;400</s></p>
+								</a>
+							</li>
+
+							<li>
+								<a href="#">
+									<span class="bj"><i>北京</i><b></b><s>武汉</s></span>
+									<p class="date"><i>07月03日</i><b>2.0折</b><s>&yen;370</s></p>
+								</a>
+							</li>
+
+							<li>
+								<a href="#">
+									<span class="bj"><i>北京</i><b></b><s>青岛</s></span>
+									<p class="date"><i>07月03日</i><b>2.0折</b><s>&yen;280</s></p>
+								</a>
+							</li>
+
+							<li>
+								<a href="#">
+									<span class="bj"><i>北京</i><b></b><s>太原</s></span>
+									<p class="date"><i>07月03日</i><b>2.0折</b><s>&yen;210</s></p>
+								</a>
+							</li>
+						</ul>	
+					</div>
+					<!--火车票-->
+					<div class="low_price1">
+						<ul class="fly">
+							<li class="f_icon">
+								<b class="train"></b>
+								<h1>火车票</h1>
+							</li>
+							<li class="active"><a href="#">北京出发</a></li>
+							<li><a href="#">上海出发</a></li>
+							<li><a href="#">广州出发</a></li>
+							<li><a href="#">深圳出发</a></li>
+							<li><a href="#">天津出发</a></li>
+							<li><a href="#">厦门出发</a></li>
+					</ul>
+					<p>				
+						<a href="#">更多>></a>
+					</p>
+					</div>
+					<div class="go_where">
+						<ul id="move_p">
+							<li>
+								<a href="#">
+									<span class="bj"><i>北京西</i><b class="move"></b><s>上海</s></span>
+									<p class="date"><i>07-03</i><b>1.0折</b><s>&yen;156.5</s></p>
+								</a>
+							</li>
+
+							<li>
+								<a href="#">
+									<span class="bj"><i>北京西</i><b class="move"></b><s>太原</s></span>
+									<p class="date"><i>07-03</i><b>1.0折</b><s>&yen;72.0</s></p>
+								</a>
+							</li>
+
+							<li>
+								<a href="#">
+									<span class="bj"><i>北京西</i><b class="move"></b><s>西安</s></span>
+									<p class="date"><i>07-03</i><b>1.0折</b><s>&yen;400</s></p>
+								</a>
+							</li>
+
+							<li>
+								<a href="#">
+									<span class="bj"><i>北京西</i><b class="move"></b><s>武汉</s></span>
+									<p class="date"><i>07-03</i><b>1.0折</b><s>&yen;370</s></p>
+								</a>
+							</li>
+
+							<li>
+								<a href="#">
+									<span class="bj"><i>北京西</i><b class="move"></b><s>青岛</s></span>
+									<p class="date"><i>07-03</i><b>1.0折</b><s>&yen;280</s></p>
+								</a>
+							</li>
+
+							<li>
+								<a href="#">
+									<span class="bj"><i>北京西</i><b class="move"></b><s>太原</s></span>
+									<p class="date"><i>07-03</i><b >1.0折</b><s>&yen;210</s></p>
+								</a>
+							</li>
+						</ul>	
+					</div>
+				</div>
+				<!--旅游指南-->
+				<div id="section_bottom">
+					<div>
+						<h2>
+							<a href="#">旅游指南</a>
+						</h2>
+					</div>
+					<div id="tranval_guide">
+						<ul>
+							<li class="on">
+								<span class="ei_icon"></span>
+								<a href="#">秦皇岛 缤纷夏日浪漫海</a>
+								<div class="active" id="guide_pic1"><img src="image/qhd.jpg" alt="" /></div>
+							</li>
+							<li >
+								<span class="ei_icon"></span>
+								<a href="#">青春520 从三亚文艺客栈开始</a>
+								<div id="guide_pic2"><img src="image/qc520.jpg" alt="" /></div>
+							</li>
+							<li >
+								<span class="ei_icon"></span>
+								<a href="#">厦门中山路上的闽南风情</a>
+								<div id="guide_pic3"><img src="image/mn.jpg" alt="" /></div>
+							</li>
+							<li>
+								<span class="ei_icon"></span>
+								<a href="#">敦煌 去莫高窟看飞天舞</a>
+								<div id="guide_pic4"><img src="image/dh.jpg" alt="" /></div>
+							</li>
+							
+						
+					</div>
+					<!--section_bottom的right部分-->
+					<div id="section_b_right">
+						<ul>
+							<li>
+								<a href="#"></a>
+								<p>邂逅丽江的悠闲慢时光</p>
+							</li>
+
+							<li>
+								<a href="#"></a>
+								<p>深圳较场尾 十家超美民宿</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+		</div>
+	
+  </section>
+  <!--footer部分-->
+  <footer id="footer1">
+		<div id="service_info">
+			<ul>
+				<li class="range">
+					<b></b>
+					<h3>全球50万家酒店</h3>
+				</li>
+				<li class="activities">
+					<b></b>
+					<h3>订酒店返现金高达20%</h3>
+				</li>
+				<li class="internation">
+					<b></b>
+					<h3>国际酒店8折起</h3>
+				</li>
+				<li class="service">
+					<b></b>
+					<h3>7X24小时服务</h3>
+				</li>
+			</ul>
+		</div>
+		<!--邮件部分-->
+		<div id="message">
+			<div class="box_email"></div>
+			<span>亲，留下您的邮箱，会有惊喜呦！~</span>
+			<form action="">
+				<input type="email" placeholder="请输入您的Email"/><input type="submit" value="立即订阅" />
+		
+			</form>
+					
+		</div>
+		
+  </footer>
+  <footer id="footer2">
+		<div id="together">
+			<ul>
+				<li><b></b><span>加盟合作</span></li>
+				<li><a href="#">酒店加盟</a></li>
+				<li><a href="#">代理合作</a></li>
+				<li><a href="#">分销联盟</a></li>
+				<li><a href="#">广告服务</a></li>
+				<li><a href="#">商家中心</a></li>
+			</ul>
+
+			<ul>
+				<li><b></b><span>关于艺龙</span></li>
+				<li><a href="#">关于艺龙</a></li>
+				<li><a href="#">酒店大全</a></li>
+				<li><a href="#">国际酒店</a></li>
+				<li><a href="#">招聘信息</a></li>
+				<li><a href="#">校园招聘</a></li>
+				<li><a href="#">联系我们</a></li>
+			</ul>
+
+			<ul>
+				<li><b></b><span>艺龙APP下载</span></li>
+				<li class="load"><s></s></li>
+			</ul>
+
+			<ul>
+				<li><b></b><span>艺龙官方微信</span></li>
+				<li class="weixin"><s></s></li>
+			</ul>
+		</div>
+			<div id="footer_copy">
+				<p>&copy;1999 - 2015 eLong, Inc or its affiliates. All Rights Reserved.<a href="#">京ICP证010011号</a>京公网安备<a href="#">11010502026059号</a><i class="icon"></i> </p>
+				<ul>
+					<li class="icon1"><a href="#"></a></li>
+					<li  class="icon2"><a href="#"></a></li>
+					<li  class="icon3"><a href="#"></a></li>
+					<li  class="icon4"><a href="#"></a></li>
+					<li  class="icon5"><a href="#"></a></li>
+				</ul>
+			</div>
+  </footer>
+  <nav id="nav_2">
+	<ul>
+		<li><a href="#">酒店预订</a></li>
+		<li><a href="#">机票查询</a></li>
+		<li><a href="#">酒店团购</a></li>
+		<li><a href="#">热门城市</a></li>
+		<li><a href="#">合作伙伴</a></li>
+		<li><a href="#">常见酒店</a></li>
+	</ul>
+  </nav>
+ 
+  <!--半透明的遮罩层中有一个登录框——模态框-->
+  <div id="model">	
+	<div class="model_dialog">
+		<!--内容-->
+		<div class="model_content">
+			<!--登录头部-->
+			<div id="login_header">
+				<p></p>
+				<span>会员登录</span>
+				<a href="#">前往注册>></a>
+				<b></b>
+			</div>
+			<!--登录中部-->
+			<div id="login_middle">
+				<span><img src="image/login_banner.jpg" alt=""></span>
+				<div class="login_right">
+				<h3>用户登录</h3><br>
+				<form id="login_form">				
+					用户名：<br><br><input type="text" name="uname" placeholder="请输入用户名" value="sunzhong"><br><br>
+					用户密码：<br><br><input type="password" name="upwd" placeholder="请输入密码" value="123456"><br><br>
+					<input id="btn" type="button" value="提交">
+				</form>
+				</div>
+			</div>
+			<!--登录底部-->
+			<div id="login_bottom">
+				<ul>
+					<li class="login_1"><b></b><a href="#">iPhone / iPad</a></li>
+					<li class="login_2"><b></b><a href="#">Android</a></li>
+					<li class="login_3"><b></b><a href="#">Windows</a></li>
+					<li class="login_4"><b></b><a href="#">其他手机端</a></li>
+				</ul>
+				<ol>
+					<li><a href="#">关于艺龙</a></li>
+					<li><a href="#">酒店加盟</a></li>
+					<li><a href="#">代理合作</a></li>
+					<li><a href="#">广告服务</a></li>
+					<li><a href="#">联系我们</a></li>
+					<li>©1999 - 2014 eLong, Inc or its affiliates. All Rights Reserved.</li>
+				</ol>
+			
+			</div>
+		</div>
+	</div>
+  </div>	
+ <script src="js/jquery-1.12.4.js"></script>
+ <script src="js/yl.js"></script>
+ <script src="js/login.js"></script>
+ </body>
+</html>

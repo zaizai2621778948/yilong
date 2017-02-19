@@ -1,0 +1,37 @@
+/*测试*/
+/*header,section,footer,#banner,nav{
+	border:1px solid #aaa;
+}*/
+/*页面的整体样式设置*/
+body{
+	font:12px "micsoft yahei",Arial,Helvetica,sans-serif;
+	color:#666;
+	margin:0px;
+	padding:0px;
+}
+ul,ol,li,p,h1,h2,h3,h4,h5,h6,dl,dt,dd{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+input{
+	border:none;
+}
+img{
+vertical-align:bottom;
+}
+	.lf{float:left;}
+	.rt{float:right;}
+	.clear{clear:both};
+*{
+	box-sizing:border-box;
+}
+a{
+	text-decoration:none;
+	color:#666;
+}
+a:hover{
+	color:#ff0700;
+}
+
+
